@@ -1,0 +1,7 @@
+- name: demo on inventory files
+  hosts: local
+  connection: local
+  tasks:
+  - name: print information
+    debug:
+      msg: "the course name is {{ COURSE }} and trainer is {{ TRAINER }} and duration is {{ DURATION }}"

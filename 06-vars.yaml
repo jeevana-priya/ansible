@@ -10,7 +10,7 @@
     vars:
       COURSE: "DevSecOps with AIOps"
     debug:
-      msg:"Hi, I am learning {{COURSE}} with {{TRAINER}}, Duration is {{DURATION}}"
+      msg: "Hi, I am learning {{COURSE}} with {{TRAINER}}, Duration is {{DURATION}}"
 
 
 

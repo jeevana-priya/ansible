@@ -13,8 +13,9 @@
       trainer: "priya"
       course_content: "good"
       rating: 4.5
-    tasks:
-    - name: print information
+  tasks:
+  - name: print information
+    debug:
       msg:
         name: {{course}}
         duration: {{duration_in_hrs}}

@@ -4,4 +4,4 @@
   tasks:
   - name: print information
     debug:
-      msg: "the course name is {{ COURSE }} and trainer is {{ TRAINER }} and duration is {{ DURATION }}"
+      msg: "the course name is {{ COURSE }} and trainer is {{ TRAINER }} and duration is {{ DURATION }}, common_key is {{common_key}}"

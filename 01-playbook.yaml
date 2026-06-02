@@ -1,0 +1,9 @@
+- name: ping the server
+  hosts: # target server
+  tasks: #tasks == module == collection
+  - name: ping the server
+    ping: #module
+
+#how to run
+# $ansible-playbook -i inventory.ini01-playbook.yaml
+# anasible modules

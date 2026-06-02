@@ -1,0 +1,13 @@
+- name:"jp t"
+  dob:"1990-01-01"
+  mobile:"1234567890"
+  address:
+  - type:perm
+    street: 101
+    aptname:"vasavi heights"
+    city:"hyderabad"
+    
+  - type:current
+    street: 101
+    aptname:"vasavi heights"
+    city:"hyderabad"

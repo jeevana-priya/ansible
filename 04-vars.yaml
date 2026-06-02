@@ -1,0 +1,12 @@
+- name: demo on varaibles
+  hosts: loclhost
+  connection: local #no need of username and password
+  vars:
+    COURSE: "Ansible"
+    TRAINER: "xx"
+    DURATION: "150HRS"
+
+  tasks:
+  - debug: #to print we use debug module
+      msg: "Hello learning {{ COURSE }} with {{ TRAINER }} for {{ DURATION }}"
+

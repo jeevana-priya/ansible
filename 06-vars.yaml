@@ -1,0 +1,7 @@
+- name:demo on varaibles
+  hosts:local
+  connection:local
+  var:
+    COURSE: "Ansible"
+    TRAINER: "xx"
+    DURATION: "150HRS"

@@ -1,0 +1,23 @@
+{
+    "students":[
+    {
+        "firstName":"Priya",
+        "LastName":"T",
+        "address":[
+            {
+            "type":"permanent",
+            "street":"103",
+            "apartment":"vasvai Heights",
+            "city":"Bangalore"
+            },
+            {
+            "type":"permanent",
+            "street":"103",
+            "apartment":"vasvai Heights",
+            "city":"Bangalore"
+            }
+        ]
+    }
+]
+}
+

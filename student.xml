@@ -1,0 +1,44 @@
+</Students>
+    <Student>
+        <FirstName>John</FirstName>
+        <LastName>Doe</LastName>
+        <dob>1990-01-01</dob>
+        <mobile>1234567890</mobile>
+        <Address>
+            <PermAdress>
+            <Street>123 Main St</Street>
+            <City>Springfield</City>
+            <State>IL</State>
+            <Zip>62701</Zip>
+            </PermAdress>
+            <CurrentAdress>
+            <Street>123 Main St</Street>
+            <City>Springfield</City>
+            <State>IL</State>
+            <Zip>62701</Zip>
+            </CurrentAdress>
+        </Address>
+    </Student>
+
+    <Student>
+        <FirstName>John</FirstName>
+        <LastName>Doe</LastName>
+        <dob>1990-01-01</dob>
+        <mobile>1234567890</mobile>
+        <Address>
+            <PermAdress>
+            <Street>123 Main St</Street>
+            <City>Springfield</City>
+            <State>IL</State>
+            <Zip>62701</Zip>
+            </PermAdress>
+            <CurrentAdress>
+            <Street>123 Main St</Street>
+            <City>Springfield</City>
+            <State>IL</State>
+            <Zip>62701</Zip>
+            </CurrentAdress>
+        </Address>
+    </Student>
+
+</Students>

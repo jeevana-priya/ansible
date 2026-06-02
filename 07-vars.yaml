@@ -1,4 +1,16 @@
-- name:demo on varaibles
-  hosts:local
-  connection:local
-  
+- name: demo on promtosts:
+  hosts: local
+  connection: local
+  vars_prompt:
+    - name: username
+      prompt: "Enter the username"
+      private: no #to show the input value
+
+    - name: password
+      prompt: "Enter the password"
+      private: true #to hide the input value
+
+  tasks:
+  - name: print information
+    debug: #to print the value we use debug module
+      msg: "the username is {{ username }} and password is {{ password }}"

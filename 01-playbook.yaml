@@ -2,7 +2,7 @@
   hosts: frontend # target server
   tasks: #tasks == module == collection
   - name: ping the server
-    ping: #module
+    ping: #ansible.builtin.ping #module
 
 #how to run
 # $ansible-playbook -i inventory.ini01-playbook.yaml

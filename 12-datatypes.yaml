@@ -17,8 +17,8 @@
   - name: print information
     debug:
       msg:
-        name: {{course}}
-        duration: {{duration_in_hrs}}
-        is_live_sessions: {{is_live_sessions}}
-        topics: {{topics}}
-        more_deatils: {{more_deatils}}
+        name: "{{course}}"
+        duration: "{{duration_in_hrs}}"
+        is_live_sessions: "{{is_live_sessions}}"
+        topics: "{{topics}}"
+        more_deatils: "{{more_deatils}}"

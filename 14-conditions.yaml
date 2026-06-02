@@ -1,0 +1,15 @@
+- name: even or odd
+  hosts: local
+  connection: local
+  vars:
+    given_num: 7
+  tasks:
+  - name: is even
+    debug:
+      msg: "the given number is {{ given_num }} and it is an even number"
+    when: given_num % 2 == 0
+    
+  - name: is odd
+    debug:
+      msg: "the given number is {{ given_num }} and it is an odd number"
+    when: given_num % 2 != 0

@@ -1,0 +1,7 @@
+- name: conditions using ansible_facts
+  hosts: frontend
+  tasks:
+  - name: print if RedHat
+    debug:
+      msg: "{{ansible_facts['distribution']}} is the operating system"
+    when: ansible_facts['distribution'] == "RedHat" 

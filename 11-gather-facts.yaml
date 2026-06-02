@@ -1,0 +1,6 @@
+- name: print facts
+  hosts: frontend
+  tasks:
+  - name: print gatheredfacts
+    debug:
+      msg: "{{ ansible_facts }}"

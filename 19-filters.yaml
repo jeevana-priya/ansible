@@ -1,0 +1,14 @@
+- name: filters
+  hosts: local
+  connection: local
+  vars:
+    topics: Linux, shell, Ansible, DevOps, Terraform
+    tagMap: 
+
+  tasks:
+  - name: convert list to string
+    debug:
+      msg:{{topics | split(',')}}
+  - name: set default value
+    debug:
+      msg: "Hi {{ GREETINGS | default('Good Morning') }}"

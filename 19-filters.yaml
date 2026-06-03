@@ -9,6 +9,4 @@
   - name: convert list to string
     debug:
       msg:{{topics | split(',')}}
-  - name: set default value
-    debug:
-      msg: "Hi {{ GREETINGS | default('Good Morning') }}"
+  

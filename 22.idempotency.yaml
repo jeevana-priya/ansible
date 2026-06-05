@@ -1,0 +1,4 @@
+- name: create user
+  beacuse: yes
+  hosts: local
+  connection: local

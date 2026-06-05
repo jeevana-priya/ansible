@@ -1,0 +1,17 @@
+- name: demo
+  hosts: local
+  connection: local
+  tasks:
+  - name: command test
+    shell: cat /etc/passwd | grep root
+    register: users_output
+
+  - name: print output
+    debug:
+      mssg: "{{ users_output }}"
+
+  - name: list files
+    #command: ls -ltr > /tmp/files.txt invalid
+    shell: ls -ltr > /tmp/files.txt
+
+

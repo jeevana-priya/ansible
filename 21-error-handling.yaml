@@ -9,7 +9,7 @@
 
   - name: print user output
     debug: 
-      msg: "{{ user_output}}"
+      msg: "{{ user_output }}"
 
   - name: create user
     command: useradd roboshop
